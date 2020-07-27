@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
-Plug 'joshdick/onedark.vim'
-Plug 'sheerun/vim-polyglot'
+Plug 'https://github.com/joshdick/onedark.vim'
+Plug 'https://github.com/sheerun/vim-polyglot'
 call plug#end()
 
 
