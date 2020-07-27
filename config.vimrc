@@ -1,3 +1,9 @@
+call plug#begin('~/.vim/plugged')
+Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
+call plug#end()
+
+
 ## General
 set rnu		# Show line numbers
 set linebreak	# Break lines at word (requires Wrap lines)
@@ -24,4 +30,7 @@ set ruler	# Show row and column ruler information
 set undolevels=1000	# Number of undo levels
 set backspace=indent,eol,start	# Backspace behaviour
 
+call plug#begin('~/.vim/plugged')
+
 syntax on
+colorscheme onedark
