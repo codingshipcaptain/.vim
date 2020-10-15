@@ -1,5 +1,6 @@
 " General
-set rnu		" Show line numbers
+set rnu		" Show line numbers relative
+set number  " Set cursor line number actual
 set linebreak	" Break lines at word (requires Wrap lines)
 set showbreak=+++ 	" Wrap-broken line prefix
 set textwidth=100	" Line wrap (number of cols)
