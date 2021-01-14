@@ -29,6 +29,7 @@ set backspace=indent,eol,start	" Backspace behaviour
 call plug#begin()
 Plug 'https://github.com/joshdick/onedark.vim'
 Plug 'https://github.com/sheerun/vim-polyglot'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 
