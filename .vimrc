@@ -24,14 +24,16 @@ set ruler	" Show row and column ruler information
 
 set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
+set completeopt+=menuone
 
-
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#begin()
 Plug 'https://github.com/joshdick/onedark.vim'
 Plug 'https://github.com/sheerun/vim-polyglot'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'https://github.com/ajh17/VimCompletesMe'
 call plug#end()
 
+autocmd FileType text,markdown let b:vcm_tab_complete = 'dict'
 
 syntax on
 colorscheme onedark
