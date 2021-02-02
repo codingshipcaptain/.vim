@@ -25,6 +25,8 @@ set ruler	" Show row and column ruler information
 set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 set completeopt+=menuone
+set mouse=a
+set showmode
 
 " Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#begin()
