@@ -27,6 +27,7 @@ set backspace=indent,eol,start	" Backspace behaviour
 set completeopt+=menuone
 set mouse=a
 set showmode
+set pastetoggle=<F3>
 
 " Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#begin()
