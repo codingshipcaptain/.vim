@@ -47,7 +47,7 @@ set backspace=indent,eol,start	" Backspace behaviour
 set completeopt+=menuone
 set mouse=a
 set showmode
-set pastetoggle=<F3>i
+set pastetoggle=<F3>
 "set clipboard+=unnamed  "System clipboard - might remove this.
 
 set wildmode=list:longest  " Make wildmenu behave like bash complete
