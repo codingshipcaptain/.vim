@@ -7,12 +7,22 @@ Plug 'vim-airline/vim-airline' " The bottom line information
 Plug 'jistr/vim-nerdtree-tabs' " This is the tab function
 Plug 'scrooloose/nerdtree' " This is the file tree 
 Plug 'preservim/nerdcommenter' " Easy commenting!
+
+"<- Contribution from Marcid ->
+" New Tabcomplete. May need to follow some instructions here
+" https://alldrops.info/posts/vim-drops/2018-04-08_javascript-autocompletion-on-vim/
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install'} 
 call plug#end()
 
 " Preface for other commands
 let mapleader = " "
 
 autocmd FileType text,markdown let b:vcm_tab_complete = 'dict'
+
+"<- Contribution from Marcid ->
+" -- AUTOCOMPLETION --  
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 
 " ALE
 let g:ale_linters = {
